@@ -45,6 +45,24 @@
 - **Username:** `admin`, Password: `YourPassword123!`
 - **Subnet Group:** Use Private Subnets
 - **Public Access:** NO
+- 
+but first create
+
+How to Create FleetPOC-Lambda-SG
+
+Go to EC2 Dashboard → Security Groups → Create security group
+Name: FleetPOC-Lambda-SG
+
+Description: Lambda SG for accessing RDS
+
+VPC: Choose the same VPC as your RDS
+
+No inbound rules are needed (Lambda doesn't receive traffic)
+
+Outbound Rule (Default): Allow all traffic (or restrict to TCP 3306 only if preferred)
+
+Click Create.
+
 - **Security Group:** Allow inbound MySQL (3306) from Lambda SG
 
 ### Step 4: Configure RDS
