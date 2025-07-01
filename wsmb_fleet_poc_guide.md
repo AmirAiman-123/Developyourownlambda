@@ -1,4 +1,4 @@
-# WSMB 2025 Cloud Computing Challenge: Fleet POC
+# create your own lambda
 
 ## Comprehensive AWS Deployment Guide
 
