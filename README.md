@@ -1,4 +1,4 @@
-NOTE FOR WSMB
+how to create your own lambda logging process
 
 Cipta VPC:
 
